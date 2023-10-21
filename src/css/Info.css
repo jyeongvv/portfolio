@@ -1,0 +1,23 @@
+.highlighted-text {
+    color: #ED4F0B;
+}
+
+.main-info {
+    padding-left: 28%;
+    font-size: 40px;
+    padding-top: 10px;
+}
+
+.info-header {
+    color: #ED4F0B;
+    font-size: 20px;
+    font-weight: 600;
+    padding-left: 28%;
+}
+
+.info-content P{
+    position: relative;
+    color: grey;
+    font-size: 17px;
+    font-weight: 350;
+}
