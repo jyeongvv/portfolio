@@ -21,7 +21,7 @@ const Navbar = () => {
               <ul style={listStyle}>
                 <li>
                 <a href="/" onClick={scrollToTop} style={logoStyle}>
-                    <img src={logo} alt="Home" style={{ width: '224px', height: '102px'}} />
+                    <img src={logo} alt="Home" style={{ width: '204px', height: '92px'}} />
                 </a>
                 </li>
             </ul>
