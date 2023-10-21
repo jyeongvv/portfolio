@@ -1,31 +1,30 @@
 import React from "react";
-import '../../public/css/Navigation.css'
-import { Link } from 'react-router-dom';
-import homeIconImage from '';
+import '../css/Navigation.css'
+import logo from '../images/logo.png';
+
+const scrollToTop = () => {
+    window.scrollTo(0, 0);
+  };
+
+const logoStyle = {
+    display: "flex",
+    justifyContent: "center",
+  };
+
+const listStyle = {
+    listStyle: "none", 
+  };
 
 const Navbar = () => {
     return (
-        <div className="nav-container">
-          <div className="nav-content">
-            <nav id="primary_nav_wrap">
-              <ul>
+        <div className="navbar">
+              <ul style={listStyle}>
                 <li>
-                  <Link to="/">
-                    <img src={homeIconImage} alt="Home" style={{ width: '40px'}} />
-                  </Link>
+                <a href="/" onClick={scrollToTop} style={logoStyle}>
+                    <img src={logo} alt="Home" style={{ width: '224px', height: '102px'}} />
+                </a>
                 </li>
-                <li className={activeMenu === '/about' ? 'current-menu-item' : ''}>
-                  <Link to="/about">About</Link>
-                </li>
-                <li className={activeMenu === '/project' ? 'current-menu-item' : ''}>
-                  <Link to="/project">Project</Link>
-                </li>
-                <li className={activeMenu === '/skill' ? 'current-menu-item' : ''}>
-                  <Link to="/board">Skill</Link>
-                </li>
-              </ul>
-            </nav>
-          </div>
+            </ul>
         </div>
       );
 }

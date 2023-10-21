@@ -1,12 +1,15 @@
 import React from "react";
-import '../../public/css/Footer.css'
+import '../css/Footer.css'
 
 const Footer = () => {
     return (
-        <div>
-            
-        </div>
-    )
-}
-
-export default Footer;
+      <div id="footer">
+        <div id="footer-line"></div>
+        <div id="footer-text">
+            © 2023. Kim Ji Young. All rights reserved.
+          </div>
+      </div>
+    );
+  };
+  
+  export default Footer;

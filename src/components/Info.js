@@ -1,7 +1,7 @@
 import React from "react";
-import '../css/About.css'
+import '../css/Info.css'
 
-const About = () => {
+const Info = () => {
     return (
         <div>
             
@@ -9,4 +9,4 @@ const About = () => {
     )
 }
 
-export default About;
+export default Info;
