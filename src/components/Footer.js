@@ -4,11 +4,10 @@ import '../css/Footer.css'
 const Footer = () => {
     return (
       <div id="footer">
-        <div className="footer-container">
-          <div className="copyright">
+        <div id="footer-line"></div>
+        <div id="footer-text">
             © 2023. Kim Ji Young. All rights reserved.
           </div>
-        </div>
       </div>
     );
   };
