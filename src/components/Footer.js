@@ -3,10 +3,14 @@ import '../../public/css/Footer.css'
 
 const Footer = () => {
     return (
-        <div>
-            
+      <div id="footer">
+        <div className="footer-container">
+          <div className="copyright">
+            © 2023. Kim Ji Young. All rights reserved.
+          </div>
         </div>
-    )
-}
-
-export default Footer;
+      </div>
+    );
+  };
+  
+  export default Footer;
