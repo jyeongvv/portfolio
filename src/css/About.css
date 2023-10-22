@@ -1,0 +1,22 @@
+.about-head {
+    text-align: center;
+    color: gray;
+    font-size: 30px;
+    font-weight: 600;
+    padding-bottom: 5%;
+}
+
+.about-content p{
+    position: relative;
+    color: gray;
+    font-size: 18px;
+    font-weight: 400;
+    text-align: center;
+}
+
+#about-line {
+    border-top: 1px solid #cbcbcb;
+    width: 90%; /* 선의 가로 길이 조절 */
+    margin: 100px auto;
+}
+  

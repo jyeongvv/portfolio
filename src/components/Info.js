@@ -30,6 +30,7 @@ const Info = () => {
                 <Paper elevation={0} sx={paperStyle} className="info-content">
                     <p>내가 무엇을, 어떻게 개발하였는지, 어떤 문제점이 있었는지 모든 과정을 팀원들과 공유하기 위해 기록하고 노력합니다.</p>
                 </Paper>
+                <div id="info-line"></div>
             </div>
         </div>
     );
