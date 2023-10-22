@@ -4,4 +4,11 @@
     font-size: 30px;
     font-weight: 600;
 }
+
+.about-content p{
+    position: relative;
+    color: grey;
+    font-size: 17px;
+    font-weight: 350;
+}
   
