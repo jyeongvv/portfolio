@@ -21,3 +21,9 @@
     font-size: 17px;
     font-weight: 350;
 }
+
+#info-line {
+    border-top: 1px solid #cbcbcb;
+    width: 90%; /* 선의 가로 길이 조절 */
+    margin: 100px auto;
+}
