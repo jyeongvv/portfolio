@@ -9,7 +9,7 @@ const Info = () => {
         padding: '15px',
         borderRadius: '20px',
         position: 'relative',
-        left: '28%',
+        left: '22%',
         width: '700px',
         top: '-13px'
     };
