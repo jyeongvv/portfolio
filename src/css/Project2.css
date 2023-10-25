@@ -1,0 +1,47 @@
+
+.project2-wrapper {
+    min-width: 500px;
+    max-width: 500px;
+    position: relative;
+    -webkit-transform: translate(-50%, 40%);
+    -ms-transform: translate(-50%, 40%);
+    transform: translate(-50%, 40%);
+    top: -50%;
+    left: 50%;
+  }
+  
+  .image2-container {
+    position: relative;
+    width: 100%;
+  }
+  img {
+    position: relative;
+    width: 100%;
+    display: none;
+  }
+  .active {
+    display: block;
+  }
+  button {
+    outline: none;
+    cursor: pointer;
+  }
+  #prev,
+  #next {
+    background-color: transparent;
+    border: none;
+    border-radius: 2px;
+    position: absolute;
+    margin: auto;
+    top: 0;
+    bottom: 0;
+    color: #fa8531;
+    font-weight: bolder;
+    font-size: 20px;
+  }
+  #prev {
+    left: -20%;
+  }
+  #next {
+    right: -20%;
+  }
