@@ -41,13 +41,13 @@ const About = () => {
                 </p>
             </div>
             <Grid container spacing={1} justifyContent="center" className="about-paper">
-            <Face3Icon sx={{ color: orange, fontSize: 60, marginLeft: 6, marginRight: 4 }} />
+            <Face3Icon sx={{ color: orange, fontSize: 60, marginLeft: 6, marginRight: 2 }} />
                 <Grid item xs={4}>
                     <Paper elevation={0} sx={paperStyle} className="about-content">
                         <p>김지영 / KIM JI YOUNG</p>
                         </Paper>
                 </Grid>
-                <CakeIcon sx={{ color: orange, fontSize: 60, marginRight: 4 }} />
+                <CakeIcon sx={{ color: orange, fontSize: 60, marginLeft: 6, marginRight: 2 }} />
                 <Grid item xs={3.5}>
                     <Paper elevation={0} sx={paperStyle} className="about-content">
                         <p>2001.08.15</p>
@@ -58,13 +58,13 @@ const About = () => {
             <br></br>
             <br></br>
             <Grid container spacing={1} justifyContent="center" className="about-paper">
-            <AttachEmailIcon sx={{ color: orange, fontSize: 60, marginLeft: 6, marginRight: 4 }} />
+            <AttachEmailIcon sx={{ color: orange, fontSize: 60, marginLeft: 6, marginRight: 2 }} />
                 <Grid item xs={4}>
                     <Paper elevation={0} sx={paperStyle} className="about-content">
                         <p>kjy812467@gmail.com</p>
                         </Paper>
                 </Grid>
-                <CallIcon sx={{ color: orange, fontSize: 60, marginRight: 4 }} />
+                <CallIcon sx={{ color: orange, fontSize: 60, marginLeft: 6, marginRight: 2 }} />
                 <Grid item xs={3.5}>
                     <Paper elevation={0} sx={paperStyle} className="about-content">
                         <p>010-3328-8124</p>
@@ -75,7 +75,7 @@ const About = () => {
             <br></br>
             <br></br>
             <Grid container spacing={1} marginLeft={18} className="about-paper">
-            <SchoolIcon sx={{ color: orange, fontSize: 60, marginLeft: 6, marginRight: 4 }} />
+            <SchoolIcon sx={{ color: orange, fontSize: 60, marginLeft: -3, marginRight: 2 }} />
                 <Grid item xs={4}>
                     <Paper elevation={0} sx={paperStyle2} className="about-content">
                         <p> 졸업 (2020.03 ~ 2023.02)</p>

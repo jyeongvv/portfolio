@@ -3,7 +3,7 @@
 }
 
 .main-info {
-    padding-left: 28%;
+    padding-left: 22%;
     font-size: 40px;
     padding-top: 10px;
 }
@@ -12,7 +12,7 @@
     color: #ED4F0B;
     font-size: 20px;
     font-weight: 600;
-    padding-left: 28%;
+    padding-left: 22%;
 }
 
 .info-content P{
@@ -24,6 +24,6 @@
 
 #info-line {
     border-top: 1px solid #cbcbcb;
-    width: 90%; /* 선의 가로 길이 조절 */
+    width: 95%; /* 선의 가로 길이 조절 */
     margin: 100px auto;
 }

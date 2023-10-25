@@ -20,13 +20,13 @@
 
 #project-line {
   border-top: 1px solid #cbcbcb;
-  width: 90%; /* 선의 가로 길이 조절 */
+  width: 95%; /* 선의 가로 길이 조절 */
   margin: 100px auto;
 }
 
 .project2-name {
   color: gray;
   font-size: 17px;
-  margin-right: 33.5%;
+  margin-right: 43%;
   margin-bottom: -0.5%;
 }
