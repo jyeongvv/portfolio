@@ -10,6 +10,7 @@
   
   .project1-button {
     margin: 0 10px; /* 이미지와 버튼 사이에 간격을 조절합니다. */
+    cursor: pointer;
   }
   
   .project1-image {

@@ -1,5 +1,9 @@
 import React, { useState } from 'react';
-import '../css/Project1.css'
+import '../css/Project1.css';
+import NavigateBeforeIcon from '@mui/icons-material/NavigateBefore';
+import NavigateNextIcon from '@mui/icons-material/NavigateNext';
+
+const orange = '#FE763B';
 
 function Project1() {
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
@@ -27,9 +31,17 @@ function Project1() {
   return (
     <div className="project1">
       <div className="image-container">
-        <button className="project1-button" onClick={previousImage}>이전</button>
+        <NavigateBeforeIcon
+          sx={{ color: orange, fontSize: 40, marginRight: 1 }}
+          onClick={previousImage}
+          className="project1-button"
+        />
         <img src={images[currentImageIndex]} alt="이미지" className="project1-image" />
-        <button className="project1-button" onClick={nextImage}>다음</button>
+        <NavigateNextIcon
+          sx={{ color: orange, fontSize: 40, marginLeft: 1 }}
+          onClick={nextImage}
+          className="project1-button"
+        />
       </div>
     </div>
   );
