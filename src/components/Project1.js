@@ -2,8 +2,10 @@ import React, { useState } from 'react';
 import '../css/Project1.css';
 import NavigateBeforeIcon from '@mui/icons-material/NavigateBefore';
 import NavigateNextIcon from '@mui/icons-material/NavigateNext';
+import CircleIcon from '@mui/icons-material/Circle';
 
 const orange = '#FE763B';
+const grey = 'grey';
 
 function Project1() {
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
@@ -30,6 +32,16 @@ function Project1() {
 
   return (
     <div className="project1">
+      <div className="project-head">
+                <p style={{ display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
+                    <CircleIcon sx={{ color: grey, fontSize: 8, marginRight: 1 }} /> PROJECT <CircleIcon sx={{ color: grey, fontSize: 8, marginLeft: 1 }} />
+                </p>
+      </div>
+      <div className='project1-name'>
+              <p>
+                chalcock (찰칵)
+              </p>
+      </div>
       <div className="image-container">
         <NavigateBeforeIcon
           sx={{ color: orange, fontSize: 40, marginRight: 1 }}

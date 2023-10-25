@@ -1,44 +1,56 @@
-// import React, { useState } from 'react';
-// import '../css/Project2.css'
+import React, { useState } from 'react';
+import '../css/Project2.css';
+import NavigateBeforeIcon from '@mui/icons-material/NavigateBefore';
+import NavigateNextIcon from '@mui/icons-material/NavigateNext';
 
-// function Project2() {
-//   const [activeIndex, setActiveIndex] = useState(0);
-//   const images = [
-//     'https://dl.dropbox.com/s/2315nuj3xyepfix/image1.jpg?raw=1',
-//     'https://dl.dropbox.com/s/f8tnpnzfd2kn16e/image2.jpg?raw=1',
-//     'https://dl.dropbox.com/s/rjcb4wo9192rdnj/image3.jpg?raw=1',
-//     'https://dl.dropbox.com/s/oxcpep8398iwp7s/image4.jpg?raw=1',
-//   ];
+const orange = '#FE763B';
 
-//   const next = () => {
-//     setActiveIndex((activeIndex + 1) % images.length);
-//   };
+function Project2() {
+  const [currentImageIndex, setCurrentImageIndex] = useState(0);
 
-//   const prev = () => {
-//     setActiveIndex((activeIndex - 1 + images.length) % images.length);
-//   };
+  const previousImage = () => {
+    if (currentImageIndex > 0) {
+      setCurrentImageIndex(currentImageIndex - 1);
+    }
+  };
 
-//   const dot = (index) => {
-//     setActiveIndex(index);
-//   };
+  const nextImage = () => {
+    if (currentImageIndex < images.length - 1) {
+      setCurrentImageIndex(currentImageIndex + 1);
+    }
+  };
 
-//   return (
-//     <div className="project2-wrapper">
-//         <div className="image2-container">
-//           {images.map((image, index) => (
-//             <img
-//               key={index}
-//               src={image}
-//               className={index === activeIndex ? 'active' : ''}
-//               alt={`Image ${index + 1}`}
-//             />
-//           ))}
-//         </div>
+  const images = [
+    'https://dl.dropbox.com/s/2315nuj3xyepfix/image1.jpg?raw=1',
+    'https://dl.dropbox.com/s/f8tnpnzfd2kn16e/image2.jpg?raw=1',
+    'https://dl.dropbox.com/s/rjcb4wo9192rdnj/image3.jpg?raw=1',
+    'https://dl.dropbox.com/s/oxcpep8398iwp7s/image4.jpg?raw=1',
+    'https://dl.dropbox.com/s/2315nuj3xyepfix/image1.jpg?raw=1',
+  ];
 
-//         <button id="prev" onClick={prev}>&lt;</button>
-//         <button id="next" onClick={next}>&gt;</button>
-//     </div>
-//   );
-// }
+  return (
+    <div className="project2">
+      <div className='project2-name'>
+              <p>
+                my web portfolio
+              </p>
+      </div>
+      <div className="image-container">
+        <NavigateBeforeIcon
+          sx={{ color: orange, fontSize: 40, marginRight: 1 }}
+          onClick={previousImage}
+          className="project2-button"
+        />
+        <img src={images[currentImageIndex]} alt="이미지" className="project2-image" />
+        <NavigateNextIcon
+          sx={{ color: orange, fontSize: 40, marginLeft: 1 }}
+          onClick={nextImage}
+          className="project2-button"
+        />
+      </div>
+      <div id="project-line"></div>
+    </div>
+  );
+}
 
-// export default Project2;
+export default Project2;

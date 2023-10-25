@@ -18,3 +18,17 @@
     display: block;
   }
   
+  .project-head {
+    text-align: center;
+    color: gray;
+    font-size: 30px;
+    font-weight: 600;
+    padding-bottom: 5%;
+}
+
+.project1-name {
+    color: gray;
+    font-size: 17px;
+    margin-right: 34.5%;
+    margin-bottom: -0.5%;
+}
