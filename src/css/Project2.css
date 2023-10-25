@@ -6,7 +6,7 @@
     -webkit-transform: translate(-50%, 40%);
     -ms-transform: translate(-50%, 40%);
     transform: translate(-50%, 40%);
-    top: -50%;
+    top: 0;
     left: 50%;
   }
   
