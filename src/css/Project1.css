@@ -1,0 +1,34 @@
+.project1 {
+    text-align: center; /* 버튼을 수평 가운데 정렬합니다. */
+  }
+  
+  .image-container {
+    display: flex;
+    justify-content: center; /* 이미지와 버튼을 수평 가운데 정렬합니다. */
+    align-items: center; /* 이미지와 버튼을 수직 가운데 정렬합니다. */
+  }
+  
+  .project1-button {
+    margin: 0 10px; /* 이미지와 버튼 사이에 간격을 조절합니다. */
+    cursor: pointer;
+  }
+  
+  .project1-image {
+    max-width: 600px;
+    display: block;
+  }
+  
+  .project-head {
+    text-align: center;
+    color: gray;
+    font-size: 30px;
+    font-weight: 600;
+    padding-bottom: 5%;
+}
+
+.project1-name {
+    color: gray;
+    font-size: 17px;
+    margin-right: 34.5%;
+    margin-bottom: -0.5%;
+}

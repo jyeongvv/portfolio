@@ -1,0 +1,32 @@
+.project2 {
+  text-align: center; /* 버튼을 수평 가운데 정렬합니다. */
+}
+
+.image-container {
+  display: flex;
+  justify-content: center; /* 이미지와 버튼을 수평 가운데 정렬합니다. */
+  align-items: center; /* 이미지와 버튼을 수직 가운데 정렬합니다. */
+}
+
+.project2-button {
+  margin: 0 10px; /* 이미지와 버튼 사이에 간격을 조절합니다. */
+  cursor: pointer;
+}
+
+.project2-image {
+  max-width: 600px;
+  display: block;
+}
+
+#project-line {
+  border-top: 1px solid #cbcbcb;
+  width: 90%; /* 선의 가로 길이 조절 */
+  margin: 100px auto;
+}
+
+.project2-name {
+  color: gray;
+  font-size: 17px;
+  margin-right: 33.5%;
+  margin-bottom: -0.5%;
+}
