@@ -1,16 +1,15 @@
 .project1 {
-    text-align: center; /* 버튼을 수평 가운데 정렬합니다. */
+    text-align: center;
   }
   
-  .image-container {
+  .image1-container {
     display: flex;
-    justify-content: center; /* 이미지와 버튼을 수평 가운데 정렬합니다. */
-    align-items: center; /* 이미지와 버튼을 수직 가운데 정렬합니다. */
+    justify-content: center; /* 수평 */
+    align-items: center; /* 수직 */
   }
   
   .project1-button {
-    margin: 0 10px; /* 이미지와 버튼 사이에 간격을 조절합니다. */
-    cursor: pointer;
+    margin: 0 10px;
   }
   
   .project1-image {
@@ -27,8 +26,34 @@
 }
 
 .project1-name {
-    color: gray;
-    font-size: 17px;
+    color: #ED4F0B;
+    font-size: 18px;
+    font-weight: 500;
     margin-right: 44.5%;
     margin-bottom: -0.5%;
+}
+
+.slide-etc1 {
+    color: #2B76CE;
+    font-size: 11px;
+    margin-right: 33%;
+}
+
+.project1-outline {
+    text-align: center;
+    font-size: 17px;
+    font-weight: 340;
+}
+
+.project1-outline .MuiPaper-root {
+    color: #5f6060;
+}
+
+.project-element {
+    font-size: 20px;
+    font-weight: 400;
+    color: #ED4F0B;
+    margin-top: 5%;
+    margin-bottom: 5px;
+    margin-right: 60%;
 }
