@@ -81,25 +81,25 @@ const paperStyle2 = {
         />
       </div>
       <p className='slide-etc2'>* 이미지에 마우스 커서를 올리면 이미지가 정지됩니다.</p>
-      <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', marginTop: '40px' }} className="project1-outline">
+      <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', marginTop: '40px' }} className="project2-outline">
         <Paper style={paperStyle2} elevation={0}>
         찰칵 웹서비스는 집에서 보유하고 있는 보드카, 코냑등의 술의 사진을 찍어서 업로드 하면, 보유한 술로 만들 수 있는 칵테일을 검색해 주는 서비스입니다.
         </Paper>
       </div>
       <p className='project-element'>개발 환경</p>
-      <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center' }} className="project1-outline">
+      <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center' }} className="project2-outline">
         <Paper style={paperStyle} elevation={0}>
         찰칵 웹서비스는 집에서 보유하고 있는 보드카, 코냑등의 술의 사진을 찍어서 업로드 하면, 보유한 술로 만들 수 있는 칵테일을 검색해 주는 서비스입니다.
         </Paper>
       </div>
       <p className='project-element'>주요 기능</p>
-      <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center' }} className="project1-outline">
+      <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center' }} className="project2-outline">
         <Paper style={paperStyle} elevation={0}>
         찰칵 웹서비스는 집에서 보유하고 있는 보드카, 코냑등의 술의 사진을 찍어서 업로드 하면, 보유한 술로 만들 수 있는 칵테일을 검색해 주는 서비스입니다.
         </Paper>
       </div>
       <p className='project-element'>개발 후기</p>
-      <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center' }} className="project1-outline">
+      <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center' }} className="project2-outline">
         <Paper style={paperStyle} elevation={0}>
         찰칵 웹서비스는 집에서 보유하고 있는 보드카, 코냑등의 술의 사진을 찍어서 업로드 하면, 보유한 술로 만들 수 있는 칵테일을 검색해 주는 서비스입니다.
         </Paper>
