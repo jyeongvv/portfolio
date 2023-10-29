@@ -2,7 +2,7 @@
   text-align: center;
 }
 
-.image-container {
+.image2-container {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -29,4 +29,10 @@
   font-size: 17px;
   margin-right: 43%;
   margin-bottom: -0.5%;
+}
+
+.slide-etc2 {
+  color: #2B76CE;
+  font-size: 11px;
+  margin-right: 33%;
 }

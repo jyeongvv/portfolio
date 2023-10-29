@@ -2,7 +2,7 @@
     text-align: center;
   }
   
-  .image-container {
+  .image1-container {
     display: flex;
     justify-content: center; /* 수평 */
     align-items: center; /* 수직 */
@@ -31,4 +31,10 @@
     font-size: 17px;
     margin-right: 44.5%;
     margin-bottom: -0.5%;
+}
+
+.slide-etc1 {
+    color: #2B76CE;
+    font-size: 11px;
+    margin-right: 33%;
 }

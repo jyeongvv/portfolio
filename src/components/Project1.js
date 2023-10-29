@@ -56,9 +56,10 @@ function Project1() {
           chalcock (찰칵)
         </p>
       </div>
-      <div className="image-container">
+      <div className="image1-container">
         <img src={images[currentImageIndex]} alt="이미지" className="project1-image" />
       </div>
+      <p className='slide-etc1'>* 이미지에 마우스 커서를 올리면 이미지가 정지됩니다.</p>
     </div>
   );
 }

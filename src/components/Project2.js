@@ -48,9 +48,10 @@ function Project2() {
           my web portfolio
         </p>
       </div>
-      <div className="image-container">
+      <div className="image2-container">
         <img src={images[currentImageIndex]} alt="이미지" className="project2-image" />
       </div>
+      <p className='slide-etc2'>* 이미지에 마우스 커서를 올리면 이미지가 정지됩니다.</p>
     </div>
   );
 }
