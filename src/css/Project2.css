@@ -25,14 +25,41 @@
 }
 
 .project2-name {
-  color: gray;
-  font-size: 17px;
+  color: #ED4F0B;
+  font-size: 18px;
+  font-weight: 500;
   margin-right: 43%;
   margin-bottom: -0.5%;
+  margin-top: 15%;
 }
 
 .slide-etc2 {
   color: #2B76CE;
   font-size: 11px;
   margin-right: 33%;
+}
+
+#project-line {
+  border-top: 1px solid #cbcbcb;
+  width: 95%; /* 선의 가로 길이 조절 */
+  margin: 100px auto;
+}
+
+.project1-outline {
+  text-align: center;
+  font-size: 17px;
+  font-weight: 340;
+}
+
+.project1-outline .MuiPaper-root {
+  color: #5f6060;
+}
+
+.project-element {
+  font-size: 20px;
+  font-weight: 400;
+  color: #ED4F0B;
+  margin-top: 5%;
+  margin-bottom: 5px;
+  margin-right: 60%;
 }
