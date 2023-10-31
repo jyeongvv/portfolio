@@ -18,11 +18,11 @@
 }
 
 .skill-bedge img {
-    margin: 2px; /* 원하는 간격 값 (예: 5px) */
+    margin: 2px;
   }
 
   #skill-line {
     border-top: 1px solid #cbcbcb;
-    width: 95%; /* 선의 가로 길이 조절 */
+    width: 95%;
     margin: 100px auto;
   }
