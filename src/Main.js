@@ -5,6 +5,7 @@ import About from "./components/About";
 import Footer from "./components/Footer";
 import Project1 from "./components/Project1";
 import Project2 from "./components/Project2";
+import Skill from "./components/Skill";
 import "./css/Main.css"
 
 function Main() {
@@ -15,6 +16,7 @@ function Main() {
       <About></About>
       <Project1></Project1>
       <Project2></Project2>
+      <Skill></Skill>
       <Footer></Footer>
     </div>
   );
