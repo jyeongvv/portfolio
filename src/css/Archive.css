@@ -1,0 +1,19 @@
+.archive-header {
+    text-align: center;
+    color: gray;
+    font-size: 30px;
+    font-weight: 600;
+    padding-bottom: 5%;
+}
+
+.archive-content {
+    font-size: 25px;
+}
+
+.archive-content .MuiPaper-root {
+    color: #5f6060;
+}
+
+.archive-img {
+    text-align: center;
+}

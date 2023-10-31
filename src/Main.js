@@ -6,6 +6,7 @@ import Footer from "./components/Footer";
 import Project1 from "./components/Project1";
 import Project2 from "./components/Project2";
 import Skill from "./components/Skill";
+import Archive from "./components/Archive";
 import "./css/Main.css"
 
 function Main() {
@@ -17,6 +18,7 @@ function Main() {
       <Project1></Project1>
       <Project2></Project2>
       <Skill></Skill>
+      <Archive></Archive>
       <Footer></Footer>
     </div>
   );
