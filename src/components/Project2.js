@@ -29,11 +29,11 @@ const paperStyle2 = {
   };
 
   const images = [
-    'https://dl.dropbox.com/s/2315nuj3xyepfix/image1.jpg?raw=1',
-    'https://dl.dropbox.com/s/f8tnpnzfd2kn16e/image2.jpg?raw=1',
-    'https://dl.dropbox.com/s/rjcb4wo9192rdnj/image3.jpg?raw=1',
-    'https://dl.dropbox.com/s/oxcpep8398iwp7s/image4.jpg?raw=1',
-    'https://dl.dropbox.com/s/2315nuj3xyepfix/image1.jpg?raw=1',
+    'https://i.imgur.com/URK0A0u.png',
+    'https://i.imgur.com/tf1rLL8.png',
+    'https://i.imgur.com/0MPm6DM.png',
+    'https://i.imgur.com/vfD2mPs.png',
+    'https://i.imgur.com/9PQg1qV.png',
   ];
 
   useEffect(() => {

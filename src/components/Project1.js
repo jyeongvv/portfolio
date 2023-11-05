@@ -28,11 +28,15 @@ const paperStyle2 = {
 };
 
   const images = [
-    'https://dl.dropbox.com/s/2315nuj3xyepfix/image1.jpg?raw=1',
-    'https://dl.dropbox.com/s/f8tnpnzfd2kn16e/image2.jpg?raw=1',
-    'https://dl.dropbox.com/s/rjcb4wo9192rdnj/image3.jpg?raw=1',
-    'https://dl.dropbox.com/s/oxcpep8398iwp7s/image4.jpg?raw=1',
-    'https://dl.dropbox.com/s/2315nuj3xyepfix/image1.jpg?raw=1',
+    'https://i.imgur.com/S7THrpm.png',
+    'https://i.imgur.com/OYnpoGn.png',
+    'https://i.imgur.com/cccEbjG.png',
+    'https://i.imgur.com/AtqRErd.png',
+    'https://i.imgur.com/bB1eMKW.png',
+    'https://i.imgur.com/hfoLqwe.png',
+    'https://i.imgur.com/Hpbk7L6.png',
+    'https://i.imgur.com/H3gjv57.png',
+    
   ];
 
   useEffect(() => {
