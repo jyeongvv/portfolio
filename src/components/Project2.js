@@ -2,8 +2,10 @@ import React, { useState, useEffect } from 'react';
 import '../css/Project2.css';
 import Paper from '@mui/material/Paper';
 import CommitIcon from '@mui/icons-material/Commit';
+import SquareIcon from '@mui/icons-material/Square';
 
 const orange = '#FE763B';
+const grey = 'grey';
 
 function Project2() {
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
@@ -15,18 +17,36 @@ function Project2() {
     padding: '20px',
     borderRadius: '10px',
     width: '700px',
-    alignItems: 'center',
-    display: 'flex',
-    justifyContent: 'center',
+    top: '20px'
 };
 
-const paperStyle2 = {
+  const paperStyle2 = {
     backgroundColor: '#F9EEE8',
     padding: '20px',
     borderRadius: '10px',
     width: '700px',
     top: '20px'
   };
+
+  const paperStyle3 = {
+    backgroundColor: '#FE763B',
+    borderRadius: '10px', 
+    height: '30px',
+    marginRight: '10px',
+    padding: '0 7px',
+    justifyContent: 'center',
+    alignItems: 'center',
+    display: 'flex'
+  };
+
+  const innerTextStyle = {
+    padding: '3px',
+    display: 'flex',
+    alignItems: 'center',
+    justifyContent: 'center',
+    fontSize: '14px',
+    color: 'white'
+  }
 
   const images = [
     'https://i.imgur.com/URK0A0u.png',
@@ -64,7 +84,7 @@ const paperStyle2 = {
 
   return (
     <div className="project2" onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}>
-      <div className='project2-name'>
+      <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center' }} className='project2-name'>
         <p>
           my web portfolio
         </p>
@@ -89,7 +109,22 @@ const paperStyle2 = {
       <p className='project-element'>개발 환경</p>
       <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center' }} className="project2-outline">
         <Paper style={paperStyle} elevation={0}>
-        찰칵 웹서비스는 집에서 보유하고 있는 보드카, 코냑등의 술의 사진을 찍어서 업로드 하면, 보유한 술로 만들 수 있는 칵테일을 검색해 주는 서비스입니다.
+        <p style={{ display: 'flex', alignItems: 'center' }}>
+          <SquareIcon sx={{ color: grey, fontSize: 8, marginRight: 2 }} />개발인원 : 1인</p>
+          <p style={{ display: 'flex', alignItems: 'center' }}>
+          <SquareIcon sx={{ color: grey, fontSize: 8, marginRight: 2 }} />역할 : 디자인, 프론트엔드, 배포</p>
+          <div className='skill-icon'>
+          <Paper style={paperStyle3} elevation={0}>
+            <p style={innerTextStyle}>react</p></Paper>
+            <Paper style={paperStyle3} elevation={0}>
+            <p style={innerTextStyle}>JavaScript</p></Paper>
+            <Paper style={paperStyle3} elevation={0}>
+            <p style={innerTextStyle}>css</p></Paper>
+            <Paper style={paperStyle3} elevation={0}>
+            <p style={innerTextStyle}>Node.js</p></Paper>
+            <Paper style={paperStyle3} elevation={0}>
+            <p style={innerTextStyle}>Figma</p></Paper>
+          </div>
         </Paper>
       </div>
       <p className='project-element'>주요 기능</p>
