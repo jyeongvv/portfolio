@@ -1,3 +1,11 @@
+@font-face {
+  font-family: 'AppleSDGothicNeoUL00'; /* 폰트 이름 */
+  src: url('/Users/jyength/Library/Fonts/AppleSDGothicNeoUL.ttf') format('TrueType'); /* 폰트 파일 경로와 형식 지정 */
+}
+
+body {
+  font-family: 'AppleSDGothicNeoUL00', sans-serif;
+}
 .project1 {
     text-align: center;
   }
@@ -29,7 +37,7 @@
 .project1-name {
     color: #ED4F0B;
     font-size: 18px;
-    font-weight: 500;
+    font-weight: 400;
     margin-right: 44.5%;
     margin-bottom: -0.5%;
 }
@@ -43,7 +51,7 @@
 .project1-outline {
     text-align: center;
     font-size: 17px;
-    font-weight: 340;
+    font-weight: 300;
 }
 
 .project1-outline .MuiPaper-root {
@@ -57,4 +65,15 @@
     margin-top: 5%;
     margin-bottom: 5px;
     margin-right: 60%;
+}
+
+.skill-icon {
+  display: flex;
+  margin-right: 10px;
+}
+
+.skill-icon2 {
+  display: flex;
+  margin-right: 10px;
+  margin-top: 1%;
 }
