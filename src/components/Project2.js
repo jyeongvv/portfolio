@@ -17,7 +17,8 @@ function Project2() {
     padding: '20px',
     borderRadius: '10px',
     width: '700px',
-    top: '20px'
+    top: '20px',
+    textAlign: 'left'
 };
 
   const paperStyle2 = {
