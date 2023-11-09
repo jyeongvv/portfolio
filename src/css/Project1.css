@@ -77,3 +77,7 @@ body {
   margin-right: 10px;
   margin-top: 1%;
 }
+
+.highlighted-text {
+  color: #ED4F0B;
+}
