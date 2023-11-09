@@ -131,7 +131,7 @@ const innerTextStyle2 = {
       <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', marginTop: '40px' }} className="project1-outline">
         <Paper style={paperStyle2} elevation={0}>
         찰칵 웹서비스는 집에서 보유하고 있는 보드카, 코냑등의 술의 사진을 찍어서 업로드 하면, 보유한 술로 만들 수 있는 칵테일을 검색해 주는 서비스입니다.
-        <p>서비스 시연 영상입니다. 링크</p>
+        <p>웹서비스 시연 영상입니다. 링크</p>
         </Paper>
       </div>
       <p className='project-element'>개발 환경</p>
