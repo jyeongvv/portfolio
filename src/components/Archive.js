@@ -31,7 +31,7 @@ function Archive() {
         <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center' }} className="archive-content">
           <Paper style={paperStyle} elevation={0}>
           <p style={{ display: 'flex', alignItems: 'center'}}><EmojiEventsIcon sx={{ color: orange, fontSize: 50,marginLeft: 7, marginRight: 3 }}/>정보처리기능사</p>
-          <p style={{ display: 'flex', alignItems: 'center'}}><EmojiEventsIcon sx={{ color: orange, fontSize: 50,marginLeft: 7, marginRight: 3 }}/>SQLD (sql 개발자)</p>
+          {/* <p style={{ display: 'flex', alignItems: 'center'}}><EmojiEventsIcon sx={{ color: orange, fontSize: 50,marginLeft: 7, marginRight: 3 }}/>정보처리산업기사</p> */}
           <p style={{ display: 'flex', alignItems: 'center'}}><EmojiEventsIcon sx={{ color: orange, fontSize: 50,marginLeft: 7, marginRight: 3 }}/>Adsp (데이터분석 준전문가)</p>
           <p style={{ display: 'flex', alignItems: 'center'}}><EmojiEventsIcon sx={{ color: orange, fontSize: 50,marginLeft: 7, marginRight: 3 }}/>Adobe photoshop 1급</p>
           </Paper>

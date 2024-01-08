@@ -78,8 +78,8 @@ const About = () => {
             <SchoolIcon sx={{ color: orange, fontSize: 60, marginLeft: -3, marginRight: 2 }} />
                 <Grid item xs={4}>
                     <Paper elevation={0} sx={paperStyle2} className="about-content">
-                        <p> 졸업 (2020.03 ~ 2023.02)</p>
-                        <p> 재학 (2024.03 ~ )</p>
+                        <p> 한양여자대학교 니트패션디자인과 졸업 (2020.03 ~ 2023.02)</p>
+                        <p> 한국방송통신대학교 컴퓨터과학과 재학 (2024.03 ~ )</p>
                         </Paper>
                 </Grid>
             </Grid>
