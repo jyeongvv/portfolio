@@ -81,3 +81,8 @@ body {
 .highlighted-text {
   color: #ED4F0B;
 }
+
+a {
+  color: #FE763B;
+  text-decoration: none;
+}
