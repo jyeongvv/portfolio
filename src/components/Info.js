@@ -16,7 +16,7 @@ const Info = () => {
 
     return (
         <div className="info">
-            <p className="main-info">성장하는 지원자 <span className="highlighted-text">김지영</span> 입니다.</p>
+            <p className="main-info">성장하고 꿈꾸는 지원자 <span className="highlighted-text">김지영</span> 입니다.</p>
             <div className="sub-info">
                 <p className="info-header">공감하기 위해 노력합니다.</p>
                 <Paper elevation={0} sx={paperStyle} className="info-content">
