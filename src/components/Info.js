@@ -16,7 +16,7 @@ const Info = () => {
 
     return (
         <div className="info">
-            <p className="main-info">프론트엔드 개발자 <span className="highlighted-text">김지영</span> 입니다.</p>
+            <p className="main-info">성장하고 꿈꾸는 지원자 <span className="highlighted-text">김지영</span> 입니다.</p>
             <div className="sub-info">
                 <p className="info-header">공감하기 위해 노력합니다.</p>
                 <Paper elevation={0} sx={paperStyle} className="info-content">
@@ -28,7 +28,7 @@ const Info = () => {
                 </Paper>
                 <p className="info-header">원활한 의사소통과 협업을 위해 노력합니다.</p>
                 <Paper elevation={0} sx={paperStyle} className="info-content">
-                    <p>내가 무엇을, 어떻게 개발하였는지, 어떤 문제점이 있었는지 모든 과정을 팀원들과 공유하기 위해 기록하고 노력합니다.</p>
+                    <p>내가 무엇을, 어떻게 진행하였는지, 어떤 문제점이 있었는지 모든 과정을 팀원들과 공유하기 위해 기록하고 노력합니다.</p>
                 </Paper>
                 <div id="info-line"></div>
             </div>

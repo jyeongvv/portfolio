@@ -6,7 +6,7 @@ const Footer = () => {
       <div id="footer">
         <div id="footer-line"></div>
         <div id="footer-text">
-            © 2023. Kim Ji Young. All rights reserved.
+            © 2024. Kim Ji Young. All rights reserved.
           </div>
       </div>
     );
